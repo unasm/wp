@@ -387,7 +387,11 @@ border: 1px solid #d7d8d8; }
 
 /***** Searchform *****/
 
-#searchform { padding: 5px; padding: 0.3125rem; background: #f6f6f6; border: 1px solid #ebebeb; overflow: hidden; }
+#searchform { padding: 5px; padding: 0.3125rem; 
+	/*
+background: #f6f6f6; 
+*/
+border: 1px solid #ebebeb; overflow: hidden; }
 #searchform #s { width: 100%; font-size: 12px; font-size: 0.75rem; color: #444; background: none; border: none; }
 #searchform #s:focus { outline: none; }
 #searchsubmit { display: none; }
